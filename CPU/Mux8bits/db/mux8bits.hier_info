@@ -1,0 +1,87 @@
+|mux8bits
+S[0] <= multiplex4bits:inst.S
+S[1] <= multiplex4bits:inst1.S
+S[2] <= multiplex4bits:inst2.S
+S[3] <= multiplex4bits:inst3.S
+R2[0] => multiplex4bits:inst.E1
+R2[1] => multiplex4bits:inst1.E1
+R2[2] => multiplex4bits:inst2.E1
+R2[3] => multiplex4bits:inst3.E1
+R1[0] => multiplex4bits:inst.E2
+R1[1] => multiplex4bits:inst1.E2
+R1[2] => multiplex4bits:inst2.E2
+R1[3] => multiplex4bits:inst3.E2
+C[0] => multiplex4bits:inst.B
+C[0] => multiplex4bits:inst2.B
+C[0] => multiplex4bits:inst3.B
+C[0] => multiplex4bits:inst1.B
+C[1] => multiplex4bits:inst.A
+C[1] => multiplex4bits:inst2.A
+C[1] => multiplex4bits:inst3.A
+C[1] => multiplex4bits:inst1.A
+
+
+|mux8bits|multiplex4bits:inst
+S <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+E0 => inst.IN0
+A => inst6.IN0
+A => inst3.IN1
+A => inst4.IN1
+A => inst8.IN0
+B => inst7.IN0
+B => inst9.IN0
+B => inst4.IN2
+B => inst2.IN2
+E2 => inst3.IN0
+E3 => inst4.IN0
+E1 => inst2.IN0
+
+
+|mux8bits|multiplex4bits:inst2
+S <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+E0 => inst.IN0
+A => inst6.IN0
+A => inst3.IN1
+A => inst4.IN1
+A => inst8.IN0
+B => inst7.IN0
+B => inst9.IN0
+B => inst4.IN2
+B => inst2.IN2
+E2 => inst3.IN0
+E3 => inst4.IN0
+E1 => inst2.IN0
+
+
+|mux8bits|multiplex4bits:inst3
+S <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+E0 => inst.IN0
+A => inst6.IN0
+A => inst3.IN1
+A => inst4.IN1
+A => inst8.IN0
+B => inst7.IN0
+B => inst9.IN0
+B => inst4.IN2
+B => inst2.IN2
+E2 => inst3.IN0
+E3 => inst4.IN0
+E1 => inst2.IN0
+
+
+|mux8bits|multiplex4bits:inst1
+S <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+E0 => inst.IN0
+A => inst6.IN0
+A => inst3.IN1
+A => inst4.IN1
+A => inst8.IN0
+B => inst7.IN0
+B => inst9.IN0
+B => inst4.IN2
+B => inst2.IN2
+E2 => inst3.IN0
+E3 => inst4.IN0
+E1 => inst2.IN0
+
+

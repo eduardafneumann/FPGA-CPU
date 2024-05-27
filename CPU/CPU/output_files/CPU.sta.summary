@@ -1,0 +1,245 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_IN'
+Slack : -10.315
+TNS   : -205.376
+
+Type  : Slow 1100mV 85C Model Setup 'RST_DEBOUNCER'
+Slack : -8.972
+TNS   : -176.718
+
+Type  : Slow 1100mV 85C Model Setup 'PIN_M9'
+Slack : -4.010
+TNS   : -59.244
+
+Type  : Slow 1100mV 85C Model Hold 'PIN_M9'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'RST_DEBOUNCER'
+Slack : 0.934
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_IN'
+Slack : 2.654
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'CLOCK_IN'
+Slack : -8.954
+TNS   : -109.619
+
+Type  : Slow 1100mV 85C Model Recovery 'RST_DEBOUNCER'
+Slack : -7.611
+TNS   : -88.131
+
+Type  : Slow 1100mV 85C Model Recovery 'PIN_M9'
+Slack : -2.694
+TNS   : -44.871
+
+Type  : Slow 1100mV 85C Model Removal 'RST_DEBOUNCER'
+Slack : 0.989
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'PIN_M9'
+Slack : 1.154
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'CLOCK_IN'
+Slack : 2.337
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'RST_DEBOUNCER'
+Slack : -2.636
+TNS   : -57.128
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_IN'
+Slack : -2.636
+TNS   : -54.087
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'PIN_M9'
+Slack : -0.538
+TNS   : -14.032
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_IN'
+Slack : -10.504
+TNS   : -206.778
+
+Type  : Slow 1100mV 0C Model Setup 'RST_DEBOUNCER'
+Slack : -9.191
+TNS   : -178.439
+
+Type  : Slow 1100mV 0C Model Setup 'PIN_M9'
+Slack : -3.774
+TNS   : -52.730
+
+Type  : Slow 1100mV 0C Model Hold 'PIN_M9'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'RST_DEBOUNCER'
+Slack : 0.862
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_IN'
+Slack : 2.543
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'CLOCK_IN'
+Slack : -8.951
+TNS   : -111.112
+
+Type  : Slow 1100mV 0C Model Recovery 'RST_DEBOUNCER'
+Slack : -7.638
+TNS   : -90.104
+
+Type  : Slow 1100mV 0C Model Recovery 'PIN_M9'
+Slack : -2.425
+TNS   : -40.123
+
+Type  : Slow 1100mV 0C Model Removal 'PIN_M9'
+Slack : 0.851
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'RST_DEBOUNCER'
+Slack : 1.114
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'CLOCK_IN'
+Slack : 2.430
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'RST_DEBOUNCER'
+Slack : -2.636
+TNS   : -57.766
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_IN'
+Slack : -2.636
+TNS   : -53.789
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'PIN_M9'
+Slack : -0.538
+TNS   : -14.181
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_IN'
+Slack : -5.710
+TNS   : -112.495
+
+Type  : Fast 1100mV 85C Model Setup 'RST_DEBOUNCER'
+Slack : -5.076
+TNS   : -98.560
+
+Type  : Fast 1100mV 85C Model Setup 'PIN_M9'
+Slack : -2.388
+TNS   : -30.821
+
+Type  : Fast 1100mV 85C Model Hold 'PIN_M9'
+Slack : 0.034
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'RST_DEBOUNCER'
+Slack : 0.228
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_IN'
+Slack : 1.091
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'CLOCK_IN'
+Slack : -5.332
+TNS   : -63.292
+
+Type  : Fast 1100mV 85C Model Recovery 'RST_DEBOUNCER'
+Slack : -4.698
+TNS   : -53.148
+
+Type  : Fast 1100mV 85C Model Recovery 'PIN_M9'
+Slack : -1.638
+TNS   : -26.822
+
+Type  : Fast 1100mV 85C Model Removal 'PIN_M9'
+Slack : 0.350
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'RST_DEBOUNCER'
+Slack : 1.097
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'CLOCK_IN'
+Slack : 1.774
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'RST_DEBOUNCER'
+Slack : -2.174
+TNS   : -45.754
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_IN'
+Slack : -2.174
+TNS   : -39.363
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'PIN_M9'
+Slack : -0.097
+TNS   : -1.732
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_IN'
+Slack : -5.339
+TNS   : -103.401
+
+Type  : Fast 1100mV 0C Model Setup 'RST_DEBOUNCER'
+Slack : -4.770
+TNS   : -90.892
+
+Type  : Fast 1100mV 0C Model Setup 'PIN_M9'
+Slack : -2.129
+TNS   : -26.727
+
+Type  : Fast 1100mV 0C Model Hold 'PIN_M9'
+Slack : -0.046
+TNS   : -0.046
+
+Type  : Fast 1100mV 0C Model Hold 'RST_DEBOUNCER'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_IN'
+Slack : 0.936
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'CLOCK_IN'
+Slack : -4.912
+TNS   : -59.462
+
+Type  : Fast 1100mV 0C Model Recovery 'RST_DEBOUNCER'
+Slack : -4.343
+TNS   : -50.358
+
+Type  : Fast 1100mV 0C Model Recovery 'PIN_M9'
+Slack : -1.382
+TNS   : -22.872
+
+Type  : Fast 1100mV 0C Model Removal 'PIN_M9'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'RST_DEBOUNCER'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'CLOCK_IN'
+Slack : 1.589
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'RST_DEBOUNCER'
+Slack : -2.174
+TNS   : -45.146
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_IN'
+Slack : -2.174
+TNS   : -38.760
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'PIN_M9'
+Slack : -0.098
+TNS   : -1.736
+
+------------------------------------------------------------

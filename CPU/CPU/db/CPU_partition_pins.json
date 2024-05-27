@@ -1,0 +1,385 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "JMP",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[15]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[14]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[13]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[12]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[11]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[10]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[9]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[8]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[7]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RESET_RG",
+					"strict" : false
+				},
+				{
+					"name" : "CONT_LED[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT_LED[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT_LED[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT_LED[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT_LED[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT_LED[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT_LED[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT_LED[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DIS3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OP_ULA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OP_ULA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Operando[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Operando[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Operando[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Operando[0]",
+					"strict" : false
+				},
+				{
+					"name" : "R1_OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "R1_OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "R1_OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "R1_OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ULA_OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ULA_OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ULA_OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ULA_OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ULA_IN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ULA_IN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ULA_IN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ULA_IN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "R2_OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "R2_OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "R2_OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "R2_OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RG_DIS1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RG_DIS1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RG_DIS1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RG_DIS1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RG_DIS1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RG_DIS1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RG_DIS1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RG_DIS2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RG_DIS2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RG_DIS2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RG_DIS2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RG_DIS2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RG_DIS2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RG_DIS2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "RST_DEBOUNCER",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK_IN",
+					"strict" : false
+				},
+				{
+					"name" : "PIN_M9",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

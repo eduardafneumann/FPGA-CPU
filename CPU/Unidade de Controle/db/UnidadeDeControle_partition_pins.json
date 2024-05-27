@@ -1,0 +1,85 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "JMP",
+					"strict" : false
+				},
+				{
+					"name" : "RESET_RG",
+					"strict" : false
+				},
+				{
+					"name" : "RESET_CONT",
+					"strict" : false
+				},
+				{
+					"name" : "ULA",
+					"strict" : false
+				},
+				{
+					"name" : "GRAVA_R1",
+					"strict" : false
+				},
+				{
+					"name" : "GRAVA_R2",
+					"strict" : false
+				},
+				{
+					"name" : "MUX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OP_ULA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OP_ULA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[11]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[10]",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[15]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[14]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[13]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[12]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[9]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[8]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

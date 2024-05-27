@@ -1,0 +1,43 @@
+|Contador
+Q[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= inst52.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+ENDER_[0] => inst1.IN0
+ENDER_[0] => inst7.IN0
+ENDER_[1] => inst19.IN0
+ENDER_[1] => inst17.IN0
+ENDER_[2] => inst22.IN0
+ENDER_[2] => inst25.IN0
+ENDER_[3] => inst30.IN0
+ENDER_[3] => inst28.IN0
+JMP => inst19.IN1
+JMP => inst18.IN0
+JMP => inst1.IN1
+JMP => inst8.IN0
+JMP => inst22.IN1
+JMP => inst26.IN0
+JMP => inst30.IN1
+JMP => inst29.IN0
+CLR => inst9.IN1
+CLR => inst3.IN1
+CLR => inst24.IN1
+CLR => inst27.IN1
+CLR => inst37.IN0
+CLR => inst36.IN0
+CLR => inst38.IN0
+CLR => inst39.IN0
+CLK => inst.CLK
+CLK => inst4.CLK
+CLK => inst5.CLK
+CLK => inst50.CLK
+CLK => inst52.CLK
+CLK => inst11.CLK
+CLK => inst13.CLK
+CLK => inst15.CLK
+
+

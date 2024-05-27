@@ -1,0 +1,67 @@
+|subtrator4bits
+S0 <= subtrator:inst.S
+A0 => subtrator:inst.A
+B0 => subtrator:inst.B
+S1 <= subtrator:inst1.S
+A1 => subtrator:inst1.A
+B1 => subtrator:inst1.B
+S2 <= subtrator:inst3.S
+A2 => subtrator:inst3.A
+B2 => subtrator:inst3.B
+S3 <= subtrator:inst4.S
+A3 => subtrator:inst4.A
+B3 => subtrator:inst4.B
+
+
+|subtrator4bits|subtrator:inst
+S <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+A => inst6.IN0
+A => inst3.IN0
+B => inst6.IN1
+B => inst2.IN0
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|subtrator4bits|subtrator:inst1
+S <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+A => inst6.IN0
+A => inst3.IN0
+B => inst6.IN1
+B => inst2.IN0
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|subtrator4bits|subtrator:inst3
+S <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+A => inst6.IN0
+A => inst3.IN0
+B => inst6.IN1
+B => inst2.IN0
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|subtrator4bits|subtrator:inst4
+S <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+A => inst6.IN0
+A => inst3.IN0
+B => inst6.IN1
+B => inst2.IN0
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
